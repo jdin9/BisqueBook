@@ -1,4 +1,10 @@
-node_modules
+node_modules/*
+!node_modules/.bin/
+!node_modules/.bin/prisma
+!node_modules/@prisma/
+!node_modules/@prisma/client/
+!node_modules/@prisma/client/index.js
+!node_modules/@prisma/client/index.d.ts
 .next
 .env
 .env.local
