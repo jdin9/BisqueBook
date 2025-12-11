@@ -24,8 +24,8 @@ export default function RootLayout({
             <nav aria-label="Primary navigation">
               <ul className="flex items-center gap-4 text-sm font-medium">
                 <li>
-                  <Link href="/" className="text-slate-700 transition hover:text-slate-950">
-                    Dashboard
+                  <Link href="/admin" className="text-slate-700 transition hover:text-slate-950">
+                    Admin
                   </Link>
                 </li>
                 <li>
