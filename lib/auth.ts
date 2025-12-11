@@ -6,7 +6,9 @@ import GoogleProvider from 'next-auth/providers/google';
 import { prisma } from './prisma';
 import { PrismaAdapter } from './prisma-adapter';
 
-const providers = [
+import type { Provider } from 'next-auth/providers';
+
+const providers: Provider[] = [
   EmailProvider({
     server: {
       host: process.env.EMAIL_SERVER_HOST ?? 'smtp.example.com',
